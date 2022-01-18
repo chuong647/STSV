@@ -1,0 +1,117 @@
+.drop{
+    background: none;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    width: 180px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.textDS{
+    font-weight: 700;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* CHI TIẾT HOẠT ĐỘNG */
+
+.textHD{
+    color: #a2a5aa;
+    width: auto;
+}
+.css-namhoc span{
+   width: 250px;
+}
+.tb-td{
+    width: 30%;
+}
+.tb-td1{
+    width: 70%;
+}
+
+.btn-Them{
+    background: #1870e4;
+    border: none;
+    height: 40px;
+    width: 60px;
+    color: white;
+}
+.btn-Them:hover{
+    background-color: #405bf3;
+}
+
+/* Chi tiết điểm */
+
+.form{
+    margin: 0 0 30px 115px;
+    padding: 40px;
+    position: absolute;
+    background: #2ecc71;
+    text-align: center;
+    border-radius: 8px;
+    width: 700px;
+    display: flex;
+}
+
+
+.boloc{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* text box */
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: none;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: 2px solid #191919;
+    padding: 10px 10px;
+    width: 100px;
+    outline: none;
+    color:#191919;
+    border-radius: 8px;
+    transition: 0.25s;
+    font-size: 20px;
+  }
+.text:focus{
+    border-color: #3498db;
+}
+.btn{
+    
+}
+.btn:hover{
+    background: #191919;
+    color: white;
+}
+
+
+#tbsv3{
+    border:5px solid none;
+    max-width: 1000px;
+    width: 100%;
+    overflow:auto;
+    overflow:scroll;
+    height:500px;
+    margin: 10px auto;
+  }
+  .bangthongtin, th, .cot{
+    border:1px solid #ccc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .bangthongtin{
+    border-collapse:collapse;
+    width: auto;
+  }
+  th, .cot{
+    text-align:left;
+    padding:10px;
+    margin: auto;
+    font-size: 15px;
+  }
